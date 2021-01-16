@@ -12,7 +12,7 @@ class App extends Component {
 
   //Your code here:
 
-componentDidUpdate(prevProps){
+componentDidUpdate(){
   this.handleAddTimer()
 }
 
