@@ -13,7 +13,7 @@ componentDidMount(){
 }
 
 componentWillUnmount(){
-  
+  clearInterval(this.interval);
 }
 
   render() {
